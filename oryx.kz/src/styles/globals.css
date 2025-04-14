@@ -1,0 +1,53 @@
+@import url('../../public/fonts/gilroy-bold-webfont/style.css');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Gilroy-Medium ☞', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  background: transparent;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.stores-slider .slick-list {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.login {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #f4f5fe;
+  z-index: -1;
+}
+
+.EZDrawer {
+  position: absolute;
+}

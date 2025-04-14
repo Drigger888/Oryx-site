@@ -1,0 +1,82 @@
+@import '@/styles/mixins'
+
+.header
+    position: sticky
+    top: 0
+    z-index: 1000
+    background-color: white
+    padding: 20px 0
+
+    .wrapper
+        @include container(0)
+
+        display: flex
+        align-items: center
+        justify-content: space-between
+
+        .center ul
+            display: flex
+            gap: 20px
+
+            .profile__btn
+                display: flex
+                gap: 10px
+
+            .login__btn
+                @include red-btn(50px)
+
+                width: 111px
+                height: 33px
+                gap: 5px
+
+            a
+                transition: color 0.1s
+
+                &:hover
+                    color: #EB3738
+
+        .right
+            display: flex
+            align-items: center
+            gap: 20px
+
+            .profile__btn
+                display: flex
+                gap: 10px
+
+            .login__btn
+                @include red-btn(50px)
+
+                width: 111px
+                height: 33px
+                gap: 5px
+
+            .balance
+                width: auto
+                padding: 0 5px
+                height: 40px
+                background-color: #fff
+                border-radius: 25px
+                display: flex
+                align-items: center
+                justify-content: center
+                font-size: 18px
+                border: 5px solid #fafafa
+
+            // .balance 
+            //     .balance__value
+            //         padding: 5px 26px
+            //         background-color: #fff   
+            //         border-radius: 25px     
+
+@media (max-width: 576px)
+    .header
+        padding: 10px 0
+
+        .wrapper
+            .left img
+                width: 100px
+                height: 50px
+
+            .right .register__btn
+                display: none

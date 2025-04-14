@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "abf5ec0efca9f1d57e3080a92ff22b15",
+    "packages": [
+        {
+            "name": "plesk/composer-command-info",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/plesk/composer-command-info.git",
+                "reference": "f72ea23fa837573f39a88ae4791d8b3f7770e0e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/plesk/composer-command-info/zipball/f72ea23fa837573f39a88ae4791d8b3f7770e0e3",
+                "reference": "f72ea23fa837573f39a88ae4791d8b3f7770e0e3",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.0",
+                "ext-json": "*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "codeception/codeception": "^4.2.1",
+                "codeception/module-asserts": "^2.0",
+                "composer/composer": "^2.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Plesk\\ComposerCommandInfo\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Plesk\\ComposerCommandInfo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/plesk/composer-command-info/issues",
+                "source": "https://github.com/plesk/composer-command-info/tree/1.1.1"
+            },
+            "time": "2022-08-12T07:00:43+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

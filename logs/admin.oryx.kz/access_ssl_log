@@ -1,0 +1,8 @@
+151.106.173.252 - - [11/Apr/2025:07:10:23 +0500] "GET /storage/news/September2023/image_2023-09-12_15-54-001.png HTTP/1.0" 200 801 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0"
+20.42.10.187 - - [11/Apr/2025:14:48:02 +0500] "GET /robots.txt HTTP/1.0" 200 827 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.0; +https://openai.com/searchbot"
+34.251.182.247 - - [11/Apr/2025:19:42:26 +0500] "GET / HTTP/1.0" 302 2032 "-" "Plesk screenshot bot https://support.plesk.com/hc/en-us/articles/10301006946066"
+34.251.182.247 - - [11/Apr/2025:19:42:27 +0500] "GET /login HTTP/1.0" 200 6867 "-" "Plesk screenshot bot https://support.plesk.com/hc/en-us/articles/10301006946066"
+34.251.182.247 - - [11/Apr/2025:19:42:27 +0500] "GET /voyager-assets?path=images%2Flogo-icon-light.png HTTP/1.0" 200 5257 "https://admin.oryx.kz/login" "Plesk screenshot bot https://support.plesk.com/hc/en-us/articles/10301006946066"
+34.251.182.247 - - [11/Apr/2025:19:42:27 +0500] "GET /voyager-assets?path=css%2Fapp.css HTTP/1.0" 200 479241 "https://admin.oryx.kz/login" "Plesk screenshot bot https://support.plesk.com/hc/en-us/articles/10301006946066"
+34.251.182.247 - - [11/Apr/2025:19:42:27 +0500] "GET /voyager-assets?path=images%2Fbg.jpg HTTP/1.0" 200 196378 "https://admin.oryx.kz/login" "Plesk screenshot bot https://support.plesk.com/hc/en-us/articles/10301006946066"
+34.251.182.247 - - [11/Apr/2025:19:42:29 +0500] "GET /favicon.ico HTTP/1.0" 200 800 "https://admin.oryx.kz/login" "Plesk screenshot bot https://support.plesk.com/hc/en-us/articles/10301006946066"

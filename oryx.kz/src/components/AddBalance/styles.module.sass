@@ -1,0 +1,24 @@
+@import '@/styles/mixins'
+
+.btn
+    width: fit-content
+    height: 50px
+    gap: 5px
+    font-family: 'Gilroy-Bold ☞', sans-serif
+    margin-right: 0
+    padding: 0 20px
+    background-color: #008000
+    color: white
+    border-radius: 20px
+    margin-top: 48px
+
+    span
+        font-size: 35px
+
+@media (max-width: 576px)
+    .btn
+        height: 30px
+        font-family: 'Gilroy-Medium ☞', sans-serif
+
+        span
+            display: none
